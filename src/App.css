@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.gridfield{
+  margin: 0 auto;
+}
+.gridfield th, .gridfield td{
+  text-align: center;
+  width: 165px;
+}
+.gridfield th{
+  border-top: 5px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+.gridfield td{
+  border-bottom:1px solid #aaa;
+  padding: 10px;
+}
