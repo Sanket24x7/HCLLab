@@ -40,4 +40,4 @@ app.get('/',function(req,res){
   res.send("Hello world from server.js");
 });
 app.listen(3001);
-console.log("Server running on port 8888");
+console.log("Server running on port 3001");

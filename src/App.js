@@ -13,7 +13,7 @@ class App extends Component {
   }
   getTableDataFromServer(){
     var that = this;
-    axios.get('http://localhost:8888/getTableData')
+    axios.get('http://localhost:3001/getTableData')
     .then(function(res, err){
       // Do something
       console.log(JSON.stringify(res.data));
